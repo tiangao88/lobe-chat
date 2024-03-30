@@ -3,6 +3,26 @@ import { ModelProviderCard } from '@/types/llm';
 const Perplexity: ModelProviderCard = {
   chatModels: [
     {
+      displayName: 'Sonar Medium Online',
+      id: 'sonar-medium-online',
+      tokens: 12000,
+    },    
+     {
+      displayName: 'Sonar Small Online',
+      id: 'sonar-small-online',
+      tokens: 12000,
+    }, 
+    {
+      displayName: 'Sonar Medium Chat',
+      id: 'sonar-medium-chat',
+      tokens: 16384,
+    },    
+     {
+      displayName: 'Sonar Small Chat',
+      id: 'sonar-small-chat',
+      tokens: 16384,
+    },    
+    {
       displayName: 'Perplexity 7B Chat',
       id: 'pplx-7b-chat',
       tokens: 8192,
