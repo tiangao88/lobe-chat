@@ -37,6 +37,27 @@ const OpenRouter: ModelProviderCard = {
       tokens: 4096,
       vision: false,
     }
+    {
+      displayName: 'Anthropic: Claude 3 Haiku',
+      functionCall: true,
+      id: 'anthropic/claude-3-haiku',
+      tokens: 200000,
+      vision: true,
+    }
+    {
+      displayName: 'Anthropic: Claude 3 Sonnet',
+      functionCall: true,
+      id: 'anthropic/claude-3-sonnet',
+      tokens: 200000,
+      vision: true,
+    }    
+    {
+      displayName: 'Anthropic: Claude 3 Opus',
+      functionCall: true,
+      id: 'anthropic/claude-3-opus',
+      tokens: 200000,
+      vision: true,
+    }    
   ],
   id: 'openrouter',
 };
